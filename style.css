@@ -57,3 +57,34 @@ transition:0.3s;
 transform:scale(1.05);
 box-shadow:0 0 20px #00ff99;
   }
+.bottom-nav{
+position:fixed;
+bottom:0;
+left:0;
+width:100%;
+background:#0b0f17;
+display:flex;
+justify-content:space-around;
+padding:10px 0;
+border-top:2px solid #00ff99;
+box-shadow:0 -2px 15px rgba(0,255,153,.4);
+z-index:999;
+}
+
+.bottom-nav a{
+color:#fff;
+text-decoration:none;
+font-size:12px;
+text-align:center;
+font-weight:bold;
+transition:.3s;
+}
+
+.bottom-nav a:hover{
+color:#00ff99;
+transform:scale(1.1);
+}
+
+body{
+padding-bottom:80px;
+}
