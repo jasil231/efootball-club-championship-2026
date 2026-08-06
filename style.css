@@ -88,3 +88,40 @@ transform:scale(1.1);
 body{
 padding-bottom:80px;
 }
+.table-container{
+    overflow-x:auto;
+    margin:20px;
+}
+
+.points-table{
+    width:100%;
+    border-collapse:collapse;
+    background:#111827;
+    border-radius:12px;
+    overflow:hidden;
+}
+
+.points-table th{
+    background:#00ff99;
+    color:#000;
+    padding:12px;
+}
+
+.points-table td{
+    padding:10px;
+    text-align:center;
+    border-bottom:1px solid #333;
+}
+
+.points-table tr:nth-child(even){
+    background:#1b2430;
+}
+
+.points-table tr:hover{
+    background:#263445;
+}
+
+.points-table td:last-child{
+    color:#00ff99;
+    font-weight:bold;
+}
