@@ -276,3 +276,70 @@ transition:.3s;
 button:hover,a:hover{
 opacity:.9;
   }
+/* Mobile Responsive */
+
+@media (max-width:768px){
+
+header h1{
+font-size:28px;
+}
+
+header p{
+font-size:14px;
+}
+
+nav{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:10px;
+}
+
+nav a{
+font-size:14px;
+padding:8px;
+}
+
+.hero img{
+width:100%;
+height:auto;
+border-radius:10px;
+}
+
+.teams{
+grid-template-columns:1fr 1fr;
+gap:10px;
+}
+
+.teams div{
+font-size:14px;
+padding:12px;
+}
+
+.fixture-card{
+margin:15px;
+padding:15px;
+}
+
+.fixture-card p{
+font-size:15px;
+}
+
+.points-table{
+font-size:13px;
+}
+
+.points-table th,
+.points-table td{
+padding:8px;
+}
+
+.table-container{
+overflow-x:auto;
+}
+
+.bottom-nav a{
+font-size:11px;
+}
+
+}
