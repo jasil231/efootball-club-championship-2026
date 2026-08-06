@@ -210,3 +210,69 @@ background:#00ff99;
 color:black;
 transition:.3s;
 }
+/* Smooth Scrolling */
+html{
+scroll-behavior:smooth;
+}
+
+/* Section Animation */
+section{
+animation:fadeIn 0.8s ease;
+}
+
+@keyframes fadeIn{
+from{
+opacity:0;
+transform:translateY(20px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+/* Team Cards */
+.teams div{
+transition:.3s;
+cursor:pointer;
+}
+
+.teams div:hover{
+transform:translateY(-8px) scale(1.05);
+box-shadow:0 0 25px #00ff99;
+}
+
+/* Fixture Cards */
+.fixture-card{
+transition:.3s;
+}
+
+.fixture-card:hover{
+transform:scale(1.02);
+box-shadow:0 0 25px #00ff99;
+}
+
+/* Table Rows */
+.points-table tbody tr{
+transition:.3s;
+}
+
+.points-table tbody tr:hover{
+background:#00ff99;
+color:#000;
+font-weight:bold;
+}
+
+/* Heading Glow */
+h1,h2{
+text-shadow:0 0 15px #00ff99;
+}
+
+/* Button Hover */
+button,a{
+transition:.3s;
+}
+
+button:hover,a:hover{
+opacity:.9;
+  }
