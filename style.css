@@ -1,1 +1,59 @@
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#05070d;
+color:white;
+}
 
+header{
+background:linear-gradient(90deg,#00ff99,#00bfff);
+padding:20px;
+text-align:center;
+box-shadow:0 0 20px #00ff99;
+}
+
+nav{
+margin-top:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:10px;
+font-weight:bold;
+}
+
+.hero img{
+width:100%;
+display:block;
+border-bottom:3px solid #00ff99;
+}
+
+h2{
+text-align:center;
+color:#00ff99;
+margin-top:40px;
+}
+
+.teams{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:15px;
+padding:20px;
+}
+
+.teams div{
+background:#101820;
+padding:15px;
+text-align:center;
+border-radius:12px;
+border:2px solid #00ff99;
+box-shadow:0 0 10px #00ff99;
+font-weight:bold;
+transition:0.3s;
+}
+
+.teams div:hover{
+transform:scale(1.05);
+box-shadow:0 0 20px #00ff99;
+  }
