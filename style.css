@@ -125,3 +125,23 @@ padding-bottom:80px;
     color:#00ff99;
     font-weight:bold;
 }
+.fixture-card{
+background:#111827;
+margin:20px;
+padding:20px;
+border-radius:15px;
+border:2px solid #00ff99;
+box-shadow:0 0 15px rgba(0,255,153,.3);
+}
+
+.fixture-card h3{
+color:#00ff99;
+margin-top:0;
+}
+
+.fixture-card p{
+padding:10px;
+background:#1f2937;
+border-radius:8px;
+margin:8px 0;
+}
