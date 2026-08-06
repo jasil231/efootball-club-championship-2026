@@ -174,3 +174,39 @@ margin:8px 0;
 body{
     padding-bottom: 80px;
 }
+#fixtures{
+padding:20px;
+}
+
+.fixture-card{
+background:#151c28;
+border:2px solid #00ff99;
+border-radius:18px;
+padding:20px;
+margin:20px auto;
+max-width:500px;
+box-shadow:0 0 15px #00ff9955;
+}
+
+.fixture-card h3{
+text-align:center;
+color:#00ff99;
+margin-bottom:15px;
+}
+
+.fixture-card p{
+background:#232b3a;
+padding:12px;
+border-radius:10px;
+margin:10px 0;
+font-size:18px;
+font-weight:bold;
+text-align:center;
+color:white;
+}
+
+.fixture-card p:hover{
+background:#00ff99;
+color:black;
+transition:.3s;
+}
